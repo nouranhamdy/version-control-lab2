@@ -22,4 +22,14 @@ git push origin :dev
 ######to remove local branches
 git push origin -d dev
 
+git tag -a v1.4 -m "annotated tag"
+git push origin v1.4
 
+######to list tags locally
+git tag
+
+######to delete remote tag
+git tag :v1.4
+
+######to delete local tag
+git tag -d v1.4

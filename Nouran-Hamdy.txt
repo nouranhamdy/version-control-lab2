@@ -2,3 +2,10 @@ mkdir version-control-lab2
 cd version-control-lab2/
 git init
 touch Nouran-Hamdy.txt
+git remote add origin git@github.com:nouranhamdy/version-control-lab2.git
+git branch -M main
+git push origin main
+git branch dev
+git branch test
+git checkout dev
+touch file1 file2

@@ -12,12 +12,12 @@ Use the package manager [pip](https://pypi.org/project/pip/) to innstall foobar.
 
 python
 
-import foobar
+`import foobar`
 
 
-foobar.pluralize('word') # returns 'words'\
-foobar.pluralize('goose') # returns 'geese'\
-foobar.singularize('phenomena') # returns 'phenomenon'\
+`foobar.pluralize('word') # returns 'words'`\
+`foobar.pluralize('goose') # returns 'geese'`\
+`foobar.singularize('phenomena') # returns 'phenomenon'`
 
 # Contributing
 

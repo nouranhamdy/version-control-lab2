@@ -9,3 +9,9 @@ git branch dev
 git branch test
 git checkout dev
 touch file1 file2
+git add .
+git commit -m "dev changes"
+git push origin dev
+git checkout main
+git merge dev
+

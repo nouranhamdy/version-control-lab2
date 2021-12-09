@@ -1,0 +1,4 @@
+mkdir version-control-lab2
+cd version-control-lab2/
+git init
+touch Nouran-Hamdy.txt
